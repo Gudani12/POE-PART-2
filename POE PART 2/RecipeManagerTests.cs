@@ -14,7 +14,7 @@ namespace RecipeManagerTests
             int initialRecipeCount = recipeManager.Recipes.Count;
 
             // Act
-            // Add ingredients with total calories below 300
+            // Add ingredients with total calories below 300 
             RecipeBook recipe = new RecipeBook();
             recipe.AddIngredient("Ingredient 1", 100, "grams", 1, 100); // Add an ingredient with 100 calories
             recipeManager.Recipes.Add(recipe); // Add the recipe to the recipe manager
