@@ -6,7 +6,7 @@ namespace RecipeManagerTests
     [TestClass]
     public class RecipeManagerTests
     {
-        [TestMethod]
+        [TestMethod] 
         public void TestEnterRecipeDetails_CaloriesBelowThreshold()
         {
             // Arrange
