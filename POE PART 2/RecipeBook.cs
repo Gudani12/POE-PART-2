@@ -3,7 +3,7 @@
     public string Name { get; set; }
     public List<Ingredient> Ingredients { get; set; }
 
-    public RecipeBook()
+    public RecipeBook() 
     {
         Ingredients = new List<Ingredient>();
     }
