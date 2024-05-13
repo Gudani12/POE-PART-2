@@ -4,7 +4,7 @@ using System;
 namespace RecipeManagerTests
 {
     [TestClass]
-    public class RecipeManagerTests
+    public class RecipeManagerTests 
     {
         [TestMethod] 
         public void TestEnterRecipeDetails_CaloriesBelowThreshold()
