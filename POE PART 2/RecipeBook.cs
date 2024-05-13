@@ -7,7 +7,7 @@
     {
         Ingredients = new List<Ingredient>();
     }
-
+     
     public void AddIngredient(string name, double quantity, string measurement, int steps, double calories)
     {
         Ingredients.Add(new Ingredient { Name = name, Quantity = quantity, Measurement = measurement, Steps = steps });
