@@ -19,7 +19,7 @@ namespace RecipeManagerTests
             recipe.AddIngredient("Ingredient 1", 100, "grams", 1, 100); // Add an ingredient with 100 calories
             recipeManager.Recipes.Add(recipe); // Add the recipe to the recipe manager
             recipeManager.EnterRecipeDetails();
-
+            
             // Assert
             Assert.AreEqual(initialRecipeCount + 1, recipeManager.Recipes.Count, "Recipe not added correctly.");
         }
