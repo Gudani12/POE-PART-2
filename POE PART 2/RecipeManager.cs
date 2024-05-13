@@ -4,7 +4,7 @@ using System.Collections.Generic;
 internal class RecipeManager
 {
     public List<RecipeBook> Recipes { get; internal set; }
-
+     
     // Define the delegate for calorie notification
     public delegate void RecipeCaloriesExceededHandler(object sender, EventArgs e);
 
