@@ -10,7 +10,7 @@ namespace RecipeManagerTests
         public void TestEnterRecipeDetails_CaloriesBelowThreshold()
         {
             // Arrange
-            RecipeManager recipeManager = new RecipeManager();
+            RecipeManager recipeManager = new RecipeManager(); 
             int initialRecipeCount = recipeManager.Recipes.Count;
 
             // Act
